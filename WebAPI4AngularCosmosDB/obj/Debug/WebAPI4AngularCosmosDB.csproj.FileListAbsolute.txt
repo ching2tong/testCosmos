@@ -204,3 +204,6 @@ C:\Source\CosmosDB\cosmostest\WebAPI4AngularCosmosDB\WebAPI4AngularCosmosDB\obj\
 C:\Source\CosmosDB\cosmostest\WebAPI4AngularCosmosDB\WebAPI4AngularCosmosDB\obj\Debug\WebAPI4AngularCosmosDB.csproj.CopyComplete
 C:\Source\CosmosDB\cosmostest\WebAPI4AngularCosmosDB\WebAPI4AngularCosmosDB\obj\Debug\WebAPI4AngularCosmosDB.dll
 C:\Source\CosmosDB\cosmostest\WebAPI4AngularCosmosDB\WebAPI4AngularCosmosDB\obj\Debug\WebAPI4AngularCosmosDB.pdb
+C:\Source\CosmosDB\cosmostest\WebAPI4AngularCosmosDB\WebAPI4AngularCosmosDB\bin\System.Web.Cors.dll
+C:\Source\CosmosDB\cosmostest\WebAPI4AngularCosmosDB\WebAPI4AngularCosmosDB\bin\System.Web.Http.Cors.dll
+C:\Source\CosmosDB\cosmostest\WebAPI4AngularCosmosDB\WebAPI4AngularCosmosDB\bin\System.Web.Http.Cors.xml

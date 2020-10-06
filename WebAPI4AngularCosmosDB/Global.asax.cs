@@ -6,6 +6,7 @@ using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using WebAPI4AngularCosmosDB.Models;
 
 namespace WebAPI4AngularCosmosDB
 {
@@ -19,7 +20,7 @@ namespace WebAPI4AngularCosmosDB
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
-            CosmosDBRepository<String>.Initialize();
+            CosmosDBRepository<Hero>.Initialize();
         }
     }
 }
