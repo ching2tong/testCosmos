@@ -8,8 +8,14 @@
     using System.Threading.Tasks;
     using Microsoft.Azure.Cosmos;
     using Microsoft.Azure.Cosmos.Linq;
+
+    /* 
+     * Note: We have commented out code here from things we tried previously or a mixture of code from the DocumentDB
+     * tutorial. 
+     */
     public static class CosmosDBRepository<T> where T : class
     {
+        //This is where we are creating the variables we need to use in order to access Cosmos DB
         private static readonly string DatabaseId = ConfigurationManager.AppSettings["database"];
         private static readonly string ContainerId = ConfigurationManager.AppSettings["container"];
         private static Database db;
@@ -21,6 +27,8 @@
             try
             {
                 ItemResponse <T> temp = await container.ReadItemAsync<T>(id, new PartitionKey("1"));
+
+                //***The code below this does not work and is a mixture of DocumentDB code and test code***
                 //Document document = await client.ReadDocumentAsync
                 //                    (UriFactory.CreateDocumentUri(DatabaseId, , id));
                 /////////////////////
